@@ -1,0 +1,98 @@
+:root{
+    --bs-warning-rgb: 200, 169, 126;
+    --bs-light-bg-subtle: #fbfbfb1a;
+    --bs-secondary-rgb: 171, 170, 170;
+}
+*{
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.fg{
+    font-family: "Great Vibes", cursive;
+}
+header{
+    width: 100%;
+    background-color: transparent;
+    font-size: 14px;
+}
+.logo{
+    font-weight: 700;
+    font-family: "Great Vibes", cursive;
+}
+.banner{
+    background-image: url('../images/banner.jpg');
+    width: 100%;
+    height: 480px;
+    background-attachment: fixed;
+}
+.border-dark-subtle{
+    border-color: rgba(0, 0, 0, 0.2);
+}
+.z-n1{
+    z-index: -1;
+}
+.co{
+    font-weight: 700;
+}
+.d{
+    background: rgba(33, 37, 41, 1);
+}
+.bg-tr{
+    background-color: transparent;
+}
+.fw{
+    font-weight: 800;
+}
+.fo-100{
+    font-size: 100px;
+}
+/* padding */
+.pt-80{
+    padding-top: 80px;
+}
+/* margin */
+.mt-20{
+    margin-top: 20px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mb-50{
+    margin-top: 50px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-90{
+    margin-top: 90px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.mt-260{
+    margin-top: 260px;
+}
+.btn-warning{
+    background-color: #c8a97e;
+    border-color: #c8a97e;
+}
+.heading{
+    font-family: "Great Vibes", cursive;
+    /* font-weight: 400; */
+}
+.img{
+    width: 65%;
+    height: 100px;
+}
+.card{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(33, 37, 41, 1);
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}

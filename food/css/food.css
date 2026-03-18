@@ -1,0 +1,270 @@
+:root{
+    --bs-warning-rgb: 200, 169, 126;
+    --bs-light-bg-subtle: #fbfbfb0d;
+    --bs-secondary-rgb: 102, 102, 102;
+    --bs-secondary-text-emphasis: #7c7c7c;
+    
+}
+:root{
+    --bs-warning-rgb: 200, 169, 126;
+    --bs-light-bg-subtle: #fbfbfb1a;
+    --bs-secondary-rgb: 171, 170, 170;
+    
+}
+*{
+    font-family: "Poppins", sans-serif;
+}
+a{
+    cursor: pointer;
+}
+.fg{
+    font-family: "Great Vibes", cursive;
+    margin-top: -60px;
+    font-size: 100px;
+}
+header{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+}
+.fo-17{
+    font-size: 17px;
+}
+.fo-100{
+    font-size: 70px;
+}
+.bg-tr{
+    background-color: transparent;
+}
+.logo{
+    font-weight: 700;
+    font-family: "Great Vibes", cursive;
+    color: white;
+}
+.text-warning{
+    color: #c8a97e;
+}
+.btn-warning{
+    background-color: #c8a97e;
+    border-color: #c8a97e;
+}
+.co-600{
+    font-weight: 600;
+}
+.fw-400{
+    font-weight: 400;
+}
+.h-300{
+    font-weight: 300;
+}
+.ps-200{
+    padding-left: 200px;
+}
+.ps-60{
+    padding-left: 80px;
+}
+.pt-60{
+    padding-top: 60px;
+}
+.pt-90{
+    padding-top: 90px;
+}
+.pb-90{
+    padding-bottom: 90px;
+}
+.pt-200{
+    padding-top: 200px;
+}
+/* margin */
+.mt-m40{
+    margin-top: -40px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.mt-45{
+    margin-top: 45px;
+}
+.mt-50{
+    margin-top: 270px;
+}
+.mt-150{
+    margin-top: 150px;
+}
+.z-n1{
+    z-index: -1;
+}
+.pl-170{
+    padding-left: 170px;
+}
+.white{
+    color: white;
+}
+/* section 1 */
+.banner{
+    background-image: url('../images/banner.jpg');
+    height: 990px;
+    width: 100%;
+    background-attachment: fixed;
+
+}
+.im{
+    object-fit: cover;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.images{
+    height: 450px;
+    width: 200%;
+    object-fit: cover;
+}
+.image{
+    height: 485px;
+    width: 300%;
+    object-fit: cover;
+}
+.cost{
+    object-fit: cover;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+.quote{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 100px;
+    right: 180px;
+}
+/* .img-bre{
+    width: 60%;
+    height: 50px;
+} */
+.img-che{
+    width: 100%;
+    height: 80%;
+    padding: 15px;
+}
+.che-po{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.3);
+}
+.img-frame{
+    background-position: center;
+    background-size: cover;
+    object-position: cover;
+}
+.img-card{
+    width: 95%;
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+}
+.back{
+    background-image: url('../images/banner.jpg');
+    width: 100%;
+    height: 750px;
+    background-attachment: fixed;
+}
+
+/* ===== CAROUSEL STYLES ===== */
+.carousel-banner-section {
+    overflow: hidden;
+}
+
+/* Carousel background images */
+.carousel-bg-img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Dark overlay */
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.60);
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Center text content */
+.carousel-content {
+    top: 50%;
+    left: 0;
+    transform: translateY(-60%);
+    z-index: 2;
+}
+
+/* Script heading size */
+.carousel-heading-script {
+    font-size: 90px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+/* Main H1 heading */
+.carousel-main-heading {
+    font-size: 52px;
+    letter-spacing: 1px;
+}
+
+/* Food cards pinned to bottom on lg */
+.carousel-food-cards {
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Responsive carousel height */
+@media (max-width: 575px) {
+    .carousel-bg-img {
+        height: 65vh;
+    }
+    .carousel-heading-script {
+        font-size: 50px;
+    }
+    .carousel-main-heading {
+        font-size: 26px;
+    }
+    .carousel-content {
+        transform: translateY(-55%);
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .carousel-bg-img {
+        height: 70vh;
+    }
+    .carousel-heading-script {
+        font-size: 65px;
+    }
+    .carousel-main-heading {
+        font-size: 34px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .carousel-bg-img {
+        height: 75vh;
+    }
+    .carousel-heading-script {
+        font-size: 75px;
+    }
+    .carousel-main-heading {
+        font-size: 42px;
+    }
+}
