@@ -174,7 +174,7 @@ No build tools or backend required — this is a **pure front-end** static websi
 
 1. **Clone or Download** the project:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/divyasolanki07/TastyBites-Food
    ```
 
 2. **Open in Browser:**
